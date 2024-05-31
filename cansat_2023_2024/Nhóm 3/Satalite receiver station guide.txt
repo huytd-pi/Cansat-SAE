@@ -1,0 +1,12 @@
+1.Vệ tinh
+ 1.1 cắm nguồn 9v cho arduino nano(bên đánh dấu cho dây âm(màu đen) bên còn lại cho dây dương(màu đỏ))(kiểm tra dung lượng pin trước khi sử dụng > 9v)
+ 1.2 bật nguồn 5v cho cảm biến 
+ 1.3 chờ arduino nháy đèn (nháy mỗi 2 giây)
+ 1.4 đóng nắp và lắp antenna
+2. Trạm mặt đất
+ 2.1 cắm chân type c vào trạm mặt đất
+ 2.2 tạo 1 điểm phát wifi có ssid: ace
+			     password: hiep1109
+ 2.3 mở cổng serial lên và chờ esp32 kết nối với điểm phát(khi kết nối xong sẽ hiện địa chỉ ip)
+ 2.4 thiết bị muốn truy cập trang web sẽ kết nối chung điểm phát wifi và nhập địa chỉ ip vào thanh tìm kiếm 
+ 2.5 chờ dữ liệu hiển thị(~30 giây)
